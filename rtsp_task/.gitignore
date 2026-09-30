@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+
+# GStreamer generated recordings
+recordings/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated H.264 conversion files
+converted_h264.mp4
+
+# GStreamer / temporary files
+*.log
+*.tmp
+
+# YOLO / model generated files
+runs/
+*.pt
+*.onnx
+*.engine
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
